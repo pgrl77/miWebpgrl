@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/180c487c57.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="Imagenes/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+  <link rel="stylesheet" href="estilos/miestilo.css">
+  <title>Registro</title>
+</head>
+
+<body >
+   <header>  
+   
+    <h1> La Cocina de Juan </h1>
+    <nav>
+       <ul class="topnav">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li> <a href="about.html">Acerca de</a></li>
+        <li> <a href="contacto.html">Contacto</a></li>
+        <li><a href="form.html">Formulario</a></li>
+        <li> <a href="location.html">Localizacion</a></li>
+      </ul>
+
+    </nav>
+ 
+  </header>
+  <h2>Formulario de Registro</h2>
+  
+  <div class="container-fluid">
+    
+    <form action="#" target="" method="get" name="formDatosPersonales">
+      <div class="form-group">
+        <label class="control-label col-sm-1" for="nombre">Nombre: </label>
+        <div class="col-sm-5">
+          <input class="form-control form-control-sm" type="text" name="nombre" id="nombres" placeholder="Escribe tu nombre" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-1" for="apellidos">Apellidos: </label>
+        <div class="col-sm-5">
+          <input class="form-control form-control-sm" type="text" name="apellidos" id="apellidos" placeholder="Escribe tu apellido" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-1" for="Direccion">Direccion: </label>
+        <div class="col-sm-5">
+          <input class="form-control form-control-sm" type="text" name="calle" id="calle" placeholder="Nombre calle" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-1" for="numero">Numero: </label>
+        <div class="col-sm-5">
+          <input class="form-control form-control-sm" type="text" name="numero" id="numero" placeholder="Ingrese el numero" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-1" for="ciudad">Ciudad: </label>
+        <div class="col-sm-5">
+          <input class="form-control form-control-sm" type="text" name="ciudad" id="ciudad" value="C.A.B.A" />
+        </div>
+      </div>
+      <div class="form-group">
+      <label class="control-label col-sm-1" for="codigo"> Codigo Postal: </label>
+      <div class="col-sm-5">
+        <input class="form-control form-control-sm" type="text" name="codigo postal" id="codigo postal"
+          placeholder="Ingrese su codigo postal" />
+      </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-1" for="telefono"> Telefono: </label>
+    <div class="col-sm-5">
+      <input class="form-control form-control-sm" type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono aqui" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-1" for="f.nac"> Fecha Nac.: </label>
+    <div class="col-sm-5">
+      <input class="form-control form-control-sm" type="date" name="fecha nac" id="fecha nac" placeholder="Fecha Nac:">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-1" for="email">Email</label>
+    <div class="col-sm-5">
+      <input class="form-control form-control-sm" type="email" name="email" id="email" placeholder="email" required />
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inlineRadio1">Genero</label>
+    <div class="form-check form-check-inline">
+   <input class="form-check-input" type="radio" name="genero" id="Hombre" value="Hombre">
+      <label class="form-check-label" for="inlineRadio1">Hombre</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="genero" id="Mujer" value="Mujer">
+      <label class="form-check-label" for="inlineRadio2">Mujer</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="genero" id="Otro" value="Otro">
+      <label class="form-check-label" for="inlineRadio3">Otro</label>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-1" for="mensaje">Mensaje</label>
+     <textarea class="form-control" rows="2" name="mensaje"></textarea>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-1">
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</div>
+
+  </form>
+</div> 
+  <footer>
+<div class="container-fluid">
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-pinterest"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin-in"></i>
+    <p>Derechos reservados @2020 </p>
+
+  </div>
+
+  </footer>
+</body>
+
+</html>
