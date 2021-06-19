@@ -1,100 +1,158 @@
-
-
-*{
-     box-sizing: border-box;
+* {
+  box-sizing: border-box;
 
 }
 
-body{
-    margin: 0;
-    padding: 0;
-   flex-wrap: wrap;
-   }
-
-header{
-    background-color:rgb(231, 155, 14);
-    color:black;
-    text-align: center;
-}
-h1{
-  font-size: 4rem;
-  margin-top: auto;
-  font-family: 'Crimson Text', serif;
-}
- 
- ul.topnav {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    overflow: hidden;
-    background-color:rgb(231, 155, 14);
-  }
-  
-  ul.topnav li {float: left;}
-  
-  ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5px 5px ;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: 'Crimson Text', serif;
-   
-  }
-  
-  ul.topnav li a:hover:not(.active) {background-color:grey;
-  }
-  
-  ul.topnav li a.active {background-color:grey}
-  
-  ul.topnav li.right {float: right;}
-  
-  @media screen and (max-width: 600px) {
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-  }
-
-footer{
-    width: 100%;
-    background-color:rgb(231, 155, 14);
-    color: white;
-   text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    padding: 7px;
-    margin:auto;
-    font-family: 'Crimson Text', serif;
-    }
-
-   
-   
-.carousel-inner img {
-    width:600px;
-   margin: auto;
-   color: #000;
-  
-
-  }
-  .carousel-caption,.carousel-item{
-      color:black;
-      text-align: center;
-      font-family: 'Crimson Text', serif;
-     
-  }
- 
-
-iframe{
-    display: block;
-    margin-left: 20%;
-    margin-top: 10%;
-    
+body {
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
+header {
+  width: 100%;
+  background-color: rgb(231, 155, 14);
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding-top: 1rem;
+}
 
-.control-label,h2{
-
+h1 {
+  font-size: 3rem;
   font-family: 'Crimson Text', serif;
   font-weight: bold;
+ 
+}
+
+ul.topnav {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(231, 155, 14);
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  width: 100%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: grey;
+}
+
+ul.topnav li a.active {
+  background-color: grey
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+footer {
+  width: 100%;
+  margin:auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0;
+  background-color: rgb(231, 155, 14);
+  color: white;
+  text-align: center;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+
+ 
+}
+
+.carousel-inner img {
+  width: 600px;
+  color: #000;
+}
+
+.carousel-caption h4,
+.carousel-item {
+  color: black;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+  padding-top: 1%;
+}
+
+
+iframe {
+  display: block;
+  margin-left: 20%;
+  margin-top: 5%;
+
+}
+
+.control-label {
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+ 
+}
+
+.formulario{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+ 
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  }
+
+.subtitulo{
+font-family: 'Crimson Text', serif;
+text-align: center;
+
+}
+
+.titulo {
+  font-family: 'Crimson Text', serif;
+  font-weight: bold; 
+  text-align: center ;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .center{
+    width: 100%;
+    float: left;
+    
+  }
 }
