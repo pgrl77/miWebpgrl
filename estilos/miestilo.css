@@ -17,6 +17,10 @@ header {
   margin: 0;
   padding-top: 1rem;
 }
+p{
+  text-align: center;
+  padding: auto;
+}
 
 h1 {
   font-size: 3rem;
@@ -62,7 +66,7 @@ ul.topnav li.right {
   float: right;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
   ul.topnav li.right,
   ul.topnav li {
@@ -85,6 +89,12 @@ footer {
   font-weight: bold;
 
  
+}
+@media (max-height:800px){
+	.social-media { 
+
+    text-align: center;
+   }
 }
 
 .carousel-inner img {
@@ -122,7 +132,7 @@ iframe {
 }
 
 .desc {
-  padding: 15px;
+  padding: 1%;
   text-align: center;
 }
 .column {
@@ -144,12 +154,12 @@ text-align: center;
   padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .column {
     width: 100%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .center{
     width: 100%;
     float: left;
