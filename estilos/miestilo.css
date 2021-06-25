@@ -167,7 +167,7 @@ footer {
 }
 
 @media all and (max-width: 600px){
-  .row{
+  .row,div{
       width:80%;
       float: left;
       height: auto;
