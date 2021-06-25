@@ -117,7 +117,6 @@ footer {
  
 }
 
-
 .carousel-inner img {
   width: 600px;
   color: #000;
@@ -150,17 +149,6 @@ footer {
  
 }
 
-.desc {
-  padding: 1%;
-  text-align: center;
-}
-
-
-.subtitulo{
-font-family: 'Crimson Text', serif;
-text-align: center;
-
-}
 
 .titulo {
   font-family: 'Crimson Text', serif;
@@ -172,7 +160,7 @@ text-align: center;
 
 @media screen and (max-width: 600px) {
  section,.about_p{
-    width: 100%;
+    width: 80%;
     float: left;
     
   }
@@ -180,9 +168,10 @@ text-align: center;
 
 @media all and (max-width: 600px){
   .row{
-      width:75%;
+      width:80%;
       float: left;
-    
+      height: auto;
+     
   }
 }
 
@@ -190,7 +179,7 @@ text-align: center;
   footer{
     
       height:auto;
-      position:relative;
+      position:fixed;
     
   }
 }
